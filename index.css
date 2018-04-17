@@ -1,0 +1,3 @@
+#butaum{color: red; background-color: black}
+.lista{color: grey}
+.lista2>li:first-of-type + li + li{color: pink}
