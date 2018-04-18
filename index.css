@@ -1,3 +1,25 @@
-#butaum{color: red; background-color: black}
-.lista{color: blue}
-.lista2>li:nth-child(3){color: red}
+#butaum{
+  color: papayawhip;
+  background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.lista{
+  color: tomato;
+}
+.lista2>li:nth-child(3){
+  color: blue;
+}
+body{
+  background-color: grey;
+}
+
+h1{
+  text-align: center;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
