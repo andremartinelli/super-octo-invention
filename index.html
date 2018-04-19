@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
   <title>Loja seu Juca</title>
   <link rel="icon" href="images/favicon.png">
@@ -33,9 +34,14 @@
     <li>Numero 97</li>
     <li>Ao lado da padaria do seu Zeca</li>
   </ol>
-
-  <input type="button" id="butaum" value="Compre já!">
+  <button id="butaum" onclick="mostraMensagem()">Compre já!</button>
+  <p id="acabou" style="color:red;">teste</p>
   <p><strong>Aqui tem qualidade!</strong></p>
-
+  <script>
+    function mostraMensagem() {
+    var paragrafo = document.getElementById("acabou");
+    paragrafo.innerHTML = "Infelizmente acabaram os peixes.";
+    }
+  </script>
 </body>
 <html>
